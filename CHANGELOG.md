@@ -1,3 +1,8 @@
+*1.1.1 (November 18, 2026)*
+
+* Better error messages
+* Update Ruby
+
 *1.1.0 (July 8, 2024)*
 
 * Support Ruby 3

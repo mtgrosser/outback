@@ -74,6 +74,7 @@ Outback::Configuration.new 'name' do
     # Default port is 22
     # port 1234
     ttl 1.day
+    # the target path must exist
     path '/backups'
   end
 

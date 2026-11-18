@@ -43,7 +43,7 @@ module Outback
         begin
           target.put(archives)
         rescue => e
-          logger.info "Error while storing to #{target}: #{e.inspect}"
+          logger.info "Error while storing to #{target}: #{e} #{e.message}"
           0
         end
       end
@@ -54,7 +54,7 @@ module Outback
         begin
           target.purge!
         rescue => e
-          logger.info "Error while purging #{target}: #{e.inspect}"
+          logger.info "Error while purging #{target}: #{e} #{e.message}"
         end
       end
     end

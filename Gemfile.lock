@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    outback (1.1.0)
+    outback (1.1.1)
       base64
       net-sftp
       rexml
@@ -33,4 +33,4 @@ DEPENDENCIES
   outback!
 
 BUNDLED WITH
-   2.5.9
+   2.5.22
