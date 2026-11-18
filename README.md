@@ -1,3 +1,6 @@
+[![Gem Version](https://badge.fury.io/rb/outback.svg)](https://badge.fury.io/rb/outback)
+
+
 Welcome to Outback
 ==================
 
